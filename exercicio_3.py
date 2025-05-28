@@ -14,7 +14,7 @@ for i in range(len(usuarios)):
     contador += 1
     divisao = contador % 15
     
-    if divisao != 0 and (usuarios[i] != "Úrsula") and (usuarios[i] != "Devon"):
+    if divisao != 0 and (usuarios[i] != "Úrsula") and i  != 85:
         print(usuarios[i])
         
     if (usuarios[i]) == "Úrsula":
